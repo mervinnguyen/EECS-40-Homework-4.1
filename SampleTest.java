@@ -2,7 +2,7 @@ package Dictionary;
 
 import java.awt.*;
 
-//testing commit for github
+//test test
 public class SampleTest {
     public static void main(String[] args) {
         Dictionary myDictionary = new Dictionary();

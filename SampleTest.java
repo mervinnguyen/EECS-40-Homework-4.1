@@ -13,7 +13,7 @@ public class SampleTest {
         myDictionary.TextArea.setText("Best AWPer");
         try {
             myDictionary.ADDButton.doClick();
-        } catch (InvalidWordError ex) {
+        } catch (InvalidWordError friend) {
             System.out.println("InvalidWordError passed");
         }
 
@@ -26,7 +26,7 @@ public class SampleTest {
         myDictionary.TextArea.setText("Rifler");
         try {
             myDictionary.ADDButton.doClick();
-        } catch (WordDuplicatedError ex) {
+        } catch (WordDuplicatedError friend) {
             System.out.println("WordDuplicatedError passed");
         }
 
